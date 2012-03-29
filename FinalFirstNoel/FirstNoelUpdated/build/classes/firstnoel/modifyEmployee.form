@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" min="-2" pref="790" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" min="-2" pref="637" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="viewClientProf">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Handwriting" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="View Client Profile"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="190" width="160" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="addClient">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Handwriting" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Add Client"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="240" width="160" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="viewEmployee">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Handwriting" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="View Employee Profile"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="290" width="160" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="addEmployee">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Handwriting" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Add Employee"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="360" width="160" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="genReport">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Handwriting" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Generate Report"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="460" width="160" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Serif" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="EMPLOYEE"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="330" width="150" height="20"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="modifyE">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Handwriting" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Modify"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="410" width="160" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="220" y="190" width="460" height="220"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="nameTherapist" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="currentStatus" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                      <Component id="changeStatus" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="dropDownService1" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="dropDownService" min="-2" pref="252" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="72" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nameTherapist" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="currentStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="changeStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dropDownService" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dropDownService1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="39" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JComboBox" name="nameTherapist">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox()"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="Connection con = null;&#xa;        PreparedStatement pst = null;&#xa;        ResultSet rs = null;&#xa;        //String nameOfTherapist[]=null;&#xa;    &#xa;        String url = &quot;jdbc:mysql://localhost:3306/firstnoel?AllowMultipleQueries=true&quot;;&#xa;        String user = &quot;lian&quot;;&#xa;        String password = &quot;lian&quot;;&#xa;&#xa;        try {&#xa;            &#xa;            con = (Connection) DriverManager.getConnection(url, user, password);&#xa;            pst = (PreparedStatement) con.prepareStatement(&quot;SELECT * FROM employee&quot;);&#xa;            rs = pst.executeQuery();&#xa;            nameTherapist.addItem(&quot;Choose Therapist&quot;);&#xa;            while (rs.next()) {&#xa;                System.out.print(rs.getInt(1));&#xa;                System.out.print(&quot;: &quot;);&#xa;                System.out.println(rs.getString(2));&#xa;                //nameOfTherapist[rs.getInt(1)-1] = rs.getString(2);&#xa;                nameTherapist.addItem(rs.getString(2));&#xa;            }&#xa;&#xa;        } catch (SQLException ex) {&#xa;                Logger lgr = Logger.getLogger(AddEmployee.class.getName());&#xa;                lgr.log(Level.SEVERE, ex.getMessage(), ex);&#xa;&#xa;        } finally {&#xa;&#xa;            try {&#xa;                if (rs != null) {&#xa;                    rs.close();&#xa;                }&#xa;                if (pst != null) {&#xa;                    pst.close();&#xa;                }&#xa;                if (con != null) {&#xa;                    con.close();&#xa;                }&#xa;&#xa;            } catch (SQLException ex) {&#xa;                Logger lgr = Logger.getLogger(AddEmployee.class.getName());&#xa;                lgr.log(Level.WARNING, ex.getMessage(), ex);&#xa;            }&#xa;        }"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Goudy Old Style" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Known Services:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Goudy Old Style" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Name of Therapist:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="dropDownService">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox()"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="/*PreparedStatement therapist_choice = null;&#xa;    PreparedStatement getKnownService = null;&#xa;    ResultSet knowServiceSet = null;&#xa;    ResultSet therapistChoice = null;&#xa;    int knowServiceNum;&#xa;    &#xa;/*Connection con = null;&#xa;      &#xa;        ResultSet rs = null;&#xa;        //String nameOfTherapist[]=null;&#xa;    &#xa;        String url = &quot;jdbc:mysql://localhost:3306/firstnoel?AllowMultipleQueries=true&quot;;&#xa;        String user = &quot;lian&quot;;&#xa;        String password = &quot;lian&quot;;*/&#xa;&#xa;/*&#xa;        try {&#xa;&#xa;            con = (Connection) DriverManager.getConnection(url, user, password);&#xa;&#xa;            String selectedTherapist = nameTherapist.getSelectedItem().toString();&#xa;            int employ_num;&#xa;            String query2 = &quot;SELECT * FROM employee WHERE employee.e_name=?&quot;;&#xa;            &#xa;            //therapist_choice = (PreparedStatement) con.prepareStatement(query2);&#xa;            //therapist_choice.setString(1,selectedTherapist);&#xa;            //therapistChoice = therapist_choice.executeQuery();&#xa;            //therapistChoice.next();&#xa;            //employ_num = therapistChoice.getInt(1);&#xa;&#xa;            /*String query3 = &quot;Select ServiceNum FROM employeeservice WHERE EmployNum=?&quot;;&#xa;            getKnownService = (PreparedStatement) con.prepareStatement(query3);&#xa;            getKnownService.setInt(1,employ_num);&#xa;            knowServiceSet = getKnownService.executeQuery();&#xa;            dropDownService.addItem(&quot;Choose Service&quot;);&#xa;            */&#xa;            //while(knowServiceSet.next())&#xa;            //{&#xa;                //knowServiceNum = knowServiceSet.getInt(1);&#xa;               //  pst = (PreparedStatement) con.prepareStatement(&quot;SELECT * FROM service WHERE service.s_number=? &quot;);&#xa;                //pst.setInt(1,knowServiceNum); &#xa;/*                pst = (PreparedStatement) con.prepareStatement(&quot;SELECT * FROM service&quot;);&#xa;                rs = pst.executeQuery();&#xa;                 &#xa;                while (rs.next()) &#xa;                {&#xa;                    System.out.print(rs.getInt(1));&#xa;                    System.out.print(&quot;: &quot;);&#xa;                    System.out.println(rs.getString(2));&#xa;                    //nameOfTherapist[rs.getInt(1)-1] = rs.getString(2);&#xa;                    dropDownService.addItem(rs.getString(2));&#xa;                }&#xa;&#xa;            //}   &#xa;&#xa;&#xa;&#xa;            &#xa;            &#xa;            &#xa;           &#xa;&#xa;        } catch (SQLException ex) {&#xa;                Logger lgr = Logger.getLogger(AddEmployee.class.getName());&#xa;                lgr.log(Level.SEVERE, ex.getMessage(), ex);&#xa;&#xa;        } finally {&#xa;&#xa;            try {&#xa;                if (rs != null) {&#xa;                    rs.close();&#xa;                }&#xa;                if (pst != null) {&#xa;                    pst.close();&#xa;                }&#xa;                if (con != null) {&#xa;                    con.close();&#xa;                }&#xa;&#xa;            } catch (SQLException ex) {&#xa;                Logger lgr = Logger.getLogger(AddEmployee.class.getName());&#xa;                lgr.log(Level.WARNING, ex.getMessage(), ex);&#xa;            }&#xa;        }&#xa; dropDownService.removeAll();&#xa; dropDownService.revalidate();*/"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Goudy Old Style" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Current Status:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="currentStatus">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="-"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Goudy Old Style" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Change Status:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="changeStatus">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="CHANGE STATUS"/>
+                    <StringItem index="1" value="ACTIVE"/>
+                    <StringItem index="2" value="INACTIVE"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="dropDownService1">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox()"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="PreparedStatement therapist_choice = null;&#xa;    PreparedStatement getKnownService = null;&#xa;    ResultSet knowServiceSet = null;&#xa;    ResultSet therapistChoice = null;&#xa;    int knowServiceNum;&#xa;    &#xa;/*Connection con = null;&#xa;      &#xa;        ResultSet rs = null;&#xa;        //String nameOfTherapist[]=null;&#xa;    &#xa;        String url = &quot;jdbc:mysql://localhost:3306/firstnoel?AllowMultipleQueries=true&quot;;&#xa;        String user = &quot;lian&quot;;&#xa;        String password = &quot;lian&quot;;*/&#xa;&#xa;&#xa;        try {&#xa;&#xa;            con = (Connection) DriverManager.getConnection(url, user, password);&#xa;&#xa;            String selectedTherapist = nameTherapist.getSelectedItem().toString();&#xa;            int employ_num;&#xa;            String query2 = &quot;SELECT * FROM employee WHERE employee.e_name=?&quot;;&#xa;            &#xa;            //therapist_choice = (PreparedStatement) con.prepareStatement(query2);&#xa;            //therapist_choice.setString(1,selectedTherapist);&#xa;            //therapistChoice = therapist_choice.executeQuery();&#xa;            //therapistChoice.next();&#xa;            //employ_num = therapistChoice.getInt(1);&#xa;&#xa;            /*String query3 = &quot;Select ServiceNum FROM employeeservice WHERE EmployNum=?&quot;;&#xa;            getKnownService = (PreparedStatement) con.prepareStatement(query3);&#xa;            getKnownService.setInt(1,employ_num);&#xa;            knowServiceSet = getKnownService.executeQuery();&#xa;            dropDownService.addItem(&quot;Choose Service&quot;);&#xa;            */&#xa;            //while(knowServiceSet.next())&#xa;            //{&#xa;                //knowServiceNum = knowServiceSet.getInt(1);&#xa;               //  pst = (PreparedStatement) con.prepareStatement(&quot;SELECT * FROM service WHERE service.s_number=? &quot;);&#xa;                //pst.setInt(1,knowServiceNum); &#xa;                pst = (PreparedStatement) con.prepareStatement(&quot;SELECT * FROM service&quot;);&#xa;                rs = pst.executeQuery();&#xa;                dropDownService1.addItem(&quot;Choose Service to ADD&quot;); &#xa;                while (rs.next()) &#xa;                {&#xa;                    System.out.print(rs.getInt(1));&#xa;                    System.out.print(&quot;: &quot;);&#xa;                    System.out.println(rs.getString(2));&#xa;                    //nameOfTherapist[rs.getInt(1)-1] = rs.getString(2);&#xa;                    dropDownService1.addItem(rs.getString(2));&#xa;                }&#xa;&#xa;            //}   &#xa;&#xa;&#xa;&#xa;            &#xa;            &#xa;            &#xa;           &#xa;&#xa;        } catch (SQLException ex) {&#xa;                Logger lgr = Logger.getLogger(AddEmployee.class.getName());&#xa;                lgr.log(Level.SEVERE, ex.getMessage(), ex);&#xa;&#xa;        } finally {&#xa;&#xa;            try {&#xa;                if (rs != null) {&#xa;                    rs.close();&#xa;                }&#xa;                if (pst != null) {&#xa;                    pst.close();&#xa;                }&#xa;                if (con != null) {&#xa;                    con.close();&#xa;                }&#xa;&#xa;            } catch (SQLException ex) {&#xa;                Logger lgr = Logger.getLogger(AddEmployee.class.getName());&#xa;                lgr.log(Level.WARNING, ex.getMessage(), ex);&#xa;            }&#xa;        }&#xa; dropDownService.removeAll();&#xa; dropDownService.revalidate();"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Goudy Old Style" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Add Services:"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="saveModification">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Goudy Old Style" size="16" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Save"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="510" y="470" width="70" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Perpetua Titling MT" size="36" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="FIRST NOEL CORPORATION"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="60" width="530" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="homeButton">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Handwriting" size="10" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Home"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="140" width="160" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Imprint MT Shadow" size="24" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="MODIFY EMPLOYEE"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="220" y="140" width="290" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images/bg3.png"/>
+            </Property>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[829, 630]"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[829, 630]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="790" height="630"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
